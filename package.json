@@ -1,0 +1,25 @@
+{
+  "name": "proyecto-final-coderhouse-portafolio",
+  "version": "1.0.0",
+  "description": "Proyecto final de mi portafolio, para el curso de desarrollo web de CODERHOUSE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css":"node-sass --include-path scss scss/main.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JhoanaEspana/Proyecto-Final-Coderhouse-Portafolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JhoanaEspana/Proyecto-Final-Coderhouse-Portafolio/issues"
+  },
+  "homepage": "https://github.com/JhoanaEspana/Proyecto-Final-Coderhouse-Portafolio#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
